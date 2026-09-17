@@ -5,6 +5,7 @@
  */
 var value = 10
 value += 5
+print(value)
 value *= 2
 print(value)
 
@@ -21,11 +22,15 @@ print(value)
  */
 var pennyBank = 0
 pennyBank += 10
+print(pennyBank)
+pennyBank += 20
+print(pennyBank)
 pennyBank /= 2
+print(pennyBank)
 pennyBank *= 3
+print(pennyBank)
 pennyBank -= 3
 print(pennyBank)
-
 /*:
 [Previous](@previous)  |  page 3 of 8  |  [Next: App Exercise - Counting](@next)
  */

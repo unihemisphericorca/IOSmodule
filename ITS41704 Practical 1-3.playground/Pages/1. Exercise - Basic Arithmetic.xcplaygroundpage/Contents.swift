@@ -7,7 +7,7 @@ let width:Double = 10
 let height:Double = 20
 let area:Double = width*height
 //:  You decide that you'll divide your shed into two rooms. You want to know if dividing it equally will leave enough room for some of your larger storage items. Create a `roomArea` constant that is the result of dividing `area` in half. Print out the result.
-let roomArea:Double = area*0.5
+let roomArea:Double = area * 0.5
 
 //:  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
 let perimeter:Double = width + width + height + height
@@ -31,20 +31,18 @@ print("This differ is when it is double it has decimal points and if it is integ
  */
 let pi = 3.1415927 
 let radius = 5.0
-var diameter = 2*radius
-var circumference = 2*pi*radius
+let diameter = 2*radius
+let circumference = 2*pi*radius
 print(diameter)
 print(circumference)
 //:  Create an integer constant. Using the modulus operator, set its value to the remainder of 12 divided by 5.
 let integer = 12%5
 print(integer)
 //:  Create two integer constants, `even` and `odd` and set them to any even integer and any odd integer, respectively. For each, print the remainder of dividing the value by 2. Looking at the results, how do you think you could use the remainder operator to determine if an integer is even or odd?
-var even = 2
-var odd = 1
-even /= 2
-odd /= 2
-print(even)
-print(odd)
+let even = 2
+let odd = 1
+print(even%2)
+print(odd%2)
 /*:
 page 1 of 8  |  [Next: App Exercise - Fitness Calculations](@next)
  */

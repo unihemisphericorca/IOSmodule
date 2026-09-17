@@ -13,6 +13,7 @@ let multipliedAsDoubles = Double(x) * y
 //:  Are the values of `multipliedAsIntegers` and `multipliedAsDoubles` different? Print a statement to the console explaining why.
 print(multipliedAsIntegers)
 print(multipliedAsDoubles)
+print("Yes the value is different, because when convert double to integer the decimal value disappears")
 /*:
 [Previous](@previous)  |  page 7 of 8  |  [Next: App Exercise - Converting Types](@next)
  */
